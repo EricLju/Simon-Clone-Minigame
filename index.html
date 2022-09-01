@@ -1,0 +1,23 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+
+  <body>
+    <h1>SIMON</h1>
+    <div class="simon_btn_area">
+      <button id="btn_green" class="btn_green" value="0" onclick="onColorButtonClick(value)"  onmousedown="playTone(0)" ontouchstart="playTone(0)"></button>
+      <button id="btn_red" class="btn_red" value="1" onclick="onColorButtonClick(value)"  onmousedown="playTone(1)" ontouchstart="playTone(1)"></button>
+      <button id="btn_yellow" class="btn_yellow" value="2" onclick="onColorButtonClick(value)" onmousedown="playTone(2)" ontouchstart="playTone(2)"></button>
+      <button id="btn_blue" class="btn_blue" value="3" onclick="onColorButtonClick(value)" onmousedown="playTone(3)" ontouchstart="playTone(3)"></button>
+      <button id="btn_start" class="btn_start" onclick="onStartClick()">START</button>
+    </div>
+
+    </br>
+    
+    <script src="simon.js"></script>
+  </body>
+</html>
